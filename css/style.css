@@ -1,0 +1,682 @@
+/*************************************
+General Properties: For all sections
+*************************************/
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+/*************************************
+Section 1 : Nav bar and header
+*************************************/
+
+#s1 {
+    background-image: url(../img/section-1-header-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#s1 .eudoralogo {
+    font-family: 'Playfair Display', serif;
+    font-size: 7.2rem;
+    color: #e59205;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: auto 0rem auto 10rem;
+}
+
+/*Section 1 Menu*/
+
+#s1 .navbar ul {
+    margin: auto;
+}
+
+#s1 .navbar li {
+    margin: auto;
+}
+
+#s1 .navbar {
+    padding: 6rem 0rem;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#s1 li a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1rem 5rem;
+    text-transform: uppercase;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+#s1 li:nth-of-type(3) a {
+    font-family: 'Playfair Display', serif;
+    font-size: 7.2rem;
+    color: #e59205;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 0;
+}
+
+#s1 li a:hover {
+    color: #e59205;
+    transform: scale(1.2)
+}
+
+#s1 li:nth-of-type(3) a:hover {
+    transform: none;
+}
+
+#s1 .navbar-toggler {
+    background-color: #e59205;
+    margin: 4rem 10rem auto 0rem;
+    padding: 1rem 2rem;
+}
+
+
+/*Section 1 : Header text*/
+
+#s1 .header-text {
+    padding: 17%;
+    text-align: center;
+}
+
+#s1 .header-text h3 {
+    font-size: 7.2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+}
+
+#s1 .header-text p {
+    color: #fff;
+    font-size: 2.4rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 4.8rem;
+    margin-top: 3rem;
+    padding: 0 23rem
+}
+
+#s1 .header-text button {
+    background-color: transparent;
+    border: 0.2rem solid #fff;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 5rem;
+    transition: 0.5s;
+    border-radius: 0px;
+}
+
+#s1 .header-text button:hover {
+    background-color: #e59205;
+    border-color: #e59205;
+    transform: scale(1.1);
+    border-radius: 15%;
+}
+
+/*************************************
+Section 2 : Food Menu
+*************************************/
+
+#s2 {
+    padding: 0 0 5rem 0;
+}
+
+#s2 .s2head {
+    text-align: center;
+    margin: 8rem auto 3rem auto;
+}
+
+#s2 .s2button {
+    text-align: center;
+    margin: 0rem auto 8rem auto;
+}
+
+#s2 .s2line {
+    width: 10%;
+    height: 0.1rem;
+    background-color: #e59205;
+    float: left;
+    margin: 5rem 0.7rem;
+}
+
+#s2 h3 {
+    float: left;
+    font-size: 7.2rem;
+    font-family: 'Playfair Display italic', serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #6e7498;
+    letter-spacing: 0.072rem;
+}
+
+#s2 .s2head p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    float: left;
+    margin-top: 2rem;
+    color: #a4a8bc;
+    letter-spacing: 0.24px;
+    padding: 1rem 9rem;
+}
+
+#s2 .s2button button {
+    background-color: transparent;
+    color: #6e7498;
+    border: 0.2rem solid #d9dcee;
+    border-radius: 0px;
+    width: 20.4rem;
+    height: 6.5rem;
+    margin: 2rem 2rem;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#s2 .s2button button:hover {
+    background-color: #e59205;
+    color: #fff;
+    border-color: #e59205;
+}
+
+/*Restaurant Items*/
+
+#s2 .s2item {
+    margin: auto;
+    text-align: center;
+    
+}
+
+#s2 .s2item img {
+    border: 0.6rem solid #fff;
+    box-shadow: 0px 0px 1.8rem 0px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: auto;
+}
+
+#s2 .s2item-box {
+    margin-bottom: 10rem;
+    width: 23.2rem;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#s2 .s2item button {
+    background-color: transparent;
+    color: #6e7498;
+    border: 0.2rem solid #d9dcee;
+    border-radius: 0px;
+    width: 19.6rem;
+    height: 6.5rem;
+    margin: 2rem 2rem;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    margin: 6rem auto;
+    text-align: center;
+    display: block;
+}
+
+#s2 .s2item button:hover {
+    background-color: #e59205;
+    color: #fff;
+    border-color: #e59205;
+}
+
+#s2 .item-price {
+    font-size: 7.2rem;
+    font-family: 'Playfair Display italic', serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #e59205;
+    letter-spacing: 0.072rem;
+    line-height: 8.2rem;
+    margin-top: 5rem;
+
+}
+
+#s2 .item-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    letter-spacing: 0.018rem;
+}
+
+#s2 .item-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    font-size: 1.4rem;
+    padding: 0 1rem;
+    color: #a4a8bc;
+}
+
+#s2 .item-information {
+    display: none;
+    transition: 1s;
+}
+
+#s2 .item-information,
+#s2 .s2img {
+    transition: 0.5s;
+}
+
+/*********** Hover on item *************/
+
+/*
+
+#s2 .s2item-box:hover .item-information {
+    display: block;
+}
+
+#s2 .s2item-box:hover .s2img {
+    transform: scale(1.2);
+}
+
+#s2 .s2item-box:hover .s2item-button {
+    display: none;
+}
+*/
+
+#s2 .s2item-box:hover {
+    position: relative;
+    z-index: 1;
+}
+
+#s2 .s2item-box:hover .s2img {
+    transform: scale(1.2);
+}
+
+.s2item-box input {
+    display: none;
+}
+
+.s2item-box label {
+    display: inline-block;
+    background-color: transparent;
+    color: #6e7498;
+    border: 0.2rem solid #d9dcee;
+    border-radius: 0px;
+    width: 19.6rem;
+    height: 6.5rem;
+    margin: 2rem 2rem;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    margin: 6rem auto;
+    text-align: center;
+    padding: 1rem 1rem;
+    cursor: pointer;
+
+}
+
+.s2item-box label:hover {
+    background-color: #e59205;
+    color: #fff;
+    border-color: #e59205;
+}
+
+/******* Item box toggle *********/
+
+#toggleboxon1:checked ~ .item-information,
+#toggleboxon2:checked ~ .item-information,
+#toggleboxon3:checked ~ .item-information,
+#toggleboxon4:checked ~ .item-information,
+#toggleboxon5:checked ~ .item-information {
+    display: block;
+    
+}
+
+#toggleboxon1:checked ~ label[for="toggleboxon1"],
+#toggleboxon2:checked ~ label[for="toggleboxon2"],
+#toggleboxon3:checked ~ label[for="toggleboxon3"],
+#toggleboxon4:checked ~ label[for="toggleboxon4"],
+#toggleboxon5:checked ~ label[for="toggleboxon5"] {
+    display: none;
+}
+
+#toggleboxoff1:checked ~ .item-information,
+#toggleboxoff2:checked ~ .item-information,
+#toggleboxoff3:checked ~ .item-information,
+#toggleboxoff4:checked ~ .item-information,
+#toggleboxoff5:checked ~ .item-information {
+    display: none;
+}
+
+
+/*************************************
+Section 3 : Breakfast Offer
+*************************************/
+
+#s3 .row {
+    background-color: #e59205;
+    /*    text-align: center;*/
+}
+
+#s3 .s3text {
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+    /*    text-align: center;*/
+
+}
+
+#s3 h3 {
+
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 7.2rem;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 8.2rem;
+    letter-spacing: 0.072rem;
+    margin: auto;
+}
+
+/*************************************
+Section 4 : Food Icons
+*************************************/
+
+#s4 .s4head {
+    text-align: center;
+    margin: 8rem auto 3rem auto;
+}
+
+#s4 .s4line {
+    width: 10%;
+    height: 0.1rem;
+    background-color: #e59205;
+    float: left;
+    margin: 5rem 0.7rem;
+}
+
+#s4 .s4head h3 {
+    float: left;
+    font-size: 7.2rem;
+    font-family: 'Playfair Display italic', serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #6e7498;
+    letter-spacing: 0.072rem;
+}
+
+#s4 .s4head p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    float: left;
+    margin-top: 2rem;
+    color: #a4a8bc;
+    letter-spacing: 0.24px;
+    padding: 1rem 9rem 8rem 9rem;
+}
+
+/*Section 4 items*/
+
+#s4 .s4item {
+    margin: 0 auto 5rem auto;
+    text-align: center;
+}
+
+#s4 .s4item-box {
+    margin-bottom: 10rem;
+    width: 35rem;
+    margin: 5rem auto 5rem auto;
+    text-align: center;
+}
+
+#s4 .s4item-box img {
+    width: 8.7rem;
+    height: 7.6rem;
+    margin: auto;
+}
+
+#s4 .s4item .s4item-head {
+    color: #6e7498;
+    font-family: "Playfair Display", serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 8.2rem;
+    letter-spacing: 0.036rem;
+    text-align: center;
+    margin: 0rem auto 2rem auto;
+
+}
+
+#s4 .s4item .s4item-info {
+    color: #a4a8bc;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 4.8rem;
+    letter-spacing: 0.018rem;
+}
+
+#s4 .s4item button {
+    background-color: transparent;
+    color: #6e7498;
+    border: 0.2rem solid #d9dcee;
+    border-radius: 0px;
+    width: 19.6rem;
+    height: 6.5rem;
+    margin: 2rem 2rem;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    margin: 6rem auto;
+    text-align: center;
+}
+
+#s4 .s4item button:hover {
+    background-color: #e59205;
+    color: #fff;
+    border-color: #e59205;
+}
+
+/*************************************
+Section 5 : Newsletter
+*************************************/
+
+#s5 {
+    background-image: url(../img/section-5-img.png);
+    background-size: 100% 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10rem 0rem;
+}
+
+#s5 .s5head {
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 7.2rem;
+    font-weight: 700;
+    line-height: 8.2rem;
+    letter-spacing: 0.072rem;
+    margin: 0 auto 5rem auto;
+    text-align: center;
+}
+
+#s5 .s5input {
+    width: 68.5rem;
+    height: 6.5rem;
+    margin: 0 auto 5rem auto;
+
+}
+
+#s5 .s5input input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-style: none;
+    border: 2px solid #fff;
+    text-align: center;
+    font-weight: 400;
+    line-height: 4.8rem;
+    letter-spacing: 0.03rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#s5 ::placeholder {
+    color: #fff;
+}
+
+#s5 button {
+    background-color: transparent;
+    color: #fff;
+    border: 0.2rem solid #ffffff;
+    border-radius: 0px;
+    width: 19.6rem;
+    height: 6.5rem;
+    margin: 2rem auto 0rem auto;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+#s5 button:hover {
+    background-color: #e59205;
+    color: #fff;
+    border-color: #e59205;
+}
+
+/*************************************
+Section 6 : Footer
+*************************************/
+
+#s6 {
+    margin: 0 auto;
+    padding: 1.5% 0%;
+
+}
+
+#s6 .s6-copyright {
+    color: #a4a8bc;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.018rem;
+    line-height: 6.8rem;
+    text-align: center;
+    margin: auto;
+}
+
+
+#s6 .s6-footer-menu ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+#s6 .s6-footer-menu li {
+    float: left;
+    margin: 1.2rem;
+}
+
+#s6 .s6-footer-menu li a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 4.8rem;
+    letter-spacing: 0.018rem;
+    text-transform: uppercase;
+    color: #a4a8bc;
+
+}
+
+#s6 .s6-footer-menu li a:hover {
+    color: #e59205;
+    font-weight: bold;
+}
+
+/*************************************
+Media Query
+*************************************/
+
+@media only screen and (max-width: 576px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+/*Section 1 header text padding*/
+
+@media only screen and (min-width: 992px) {
+    .eudoralogo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .eudoralogo {
+        display: block;
+    }
+
+    #s1 li:nth-of-type(3) a {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #s1 .header-text p {
+        padding: inherit;
+    }
+}
+
+/*Section 2 hr line width*/
+
+@media only screen and (max-width: 1200px) {
+    #s2 .s2line {
+        height: 2px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #s2 .s2item-box {
+        width: 40rem;
+    }
+}
+
+/*Section 3 text positioning*/
+
+@media only screen and (max-width: 1320px) {
+    #s3 .s3text h3 {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #s3 .s3text {
+        padding: 3rem 3rem;
+        text-align: center;
+    }
+}
+
+/*Section 4 hr line width*/
+
+@media only screen and (max-width: 1200px) {
+    #s4 .s4line {
+        height: 2px;
+        width: 100%;
+    }
+}
+
+/*Section 5 input email box*/
+
+@media only screen and (max-width: 768px) {
+    #s5 .s5input {
+        width: 80%;
+    }
+}
